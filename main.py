@@ -1,5 +1,5 @@
 import streamlit as st
-from chief.kitchen_assistant.ai_agent import app
+from ai_agent import app
 from langchain_core.messages.tool import ToolMessage
 from langchain.schema import AIMessage
 
